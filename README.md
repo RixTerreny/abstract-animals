@@ -29,5 +29,6 @@ The program includes the following methods:
 
  - faiVolare(IVolante animale): Invokes the vola() method for a flying animal passed as a parameter.
  - faiNuotare(INuotante animale): Invokes the nuota() method for a swimming animal passed as a parameter.
+
 You can create instances of animals that can fly or swim and call the faiVolare or faiNuotare methods, respectively, to demonstrate their corresponding behaviors.
 
