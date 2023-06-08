@@ -2,8 +2,12 @@ package org.learning.java.classiAstratte;
 
 public class Main {
 
-    public void makeFly(Object animal){
+    public static void makeFly(Flyer animal){
         animal.fly();
+    }
+
+    public static void makeSwim(Swimmer animal){
+        animal.swim();
     }
     public static void main(String[] args) {
         Dog layla = new Dog();
@@ -17,6 +21,8 @@ public class Main {
         cedrick.eat();
         petty.doAnimalSound();
 
-
+        makeFly(cedrick);
+        makeFly(petty);
+        makeSwim(jonny);
     }
 }
