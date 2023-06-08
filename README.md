@@ -21,6 +21,8 @@ Two interfaces, Flyer and Swimmer, are used to represent flying and swimming ani
 Flyer interface:
 
  - fly(): Displays "Sto volando!!!" to indicate flying.
+
+
 Swimmer interface:
 
  - swim(): Displays "Sto nuotando!!!" to indicate swimming.
