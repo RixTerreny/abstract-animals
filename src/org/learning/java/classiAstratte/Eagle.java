@@ -1,6 +1,6 @@
 package org.learning.java.classiAstratte;
 
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Flyer{
 
     @Override
     public void doAnimalSound() {
@@ -10,5 +10,10 @@ public class Eagle extends Animal{
     @Override
     public void eat() {
         System.out.println("Carne");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sto volando");
     }
 }

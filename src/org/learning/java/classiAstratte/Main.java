@@ -1,6 +1,10 @@
 package org.learning.java.classiAstratte;
 
 public class Main {
+
+    public void makeFly(Object animal){
+        animal.fly();
+    }
     public static void main(String[] args) {
         Dog layla = new Dog();
         Dolphin jonny = new Dolphin();
@@ -12,5 +16,7 @@ public class Main {
         jonny.doAnimalSound();
         cedrick.eat();
         petty.doAnimalSound();
+
+
     }
 }
